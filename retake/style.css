@@ -78,6 +78,7 @@ ul,li{
 
 }
 main{
+    font-weight: lighter;
     margin: 80px 0px;
 }
 .texts{
