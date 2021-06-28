@@ -1,0 +1,272 @@
+@font-face{
+    font-family: 'Gotham Pro';
+    src: url('fonts/GothamPro-Bold.ttf');
+    
+} 
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham Pro';
+   
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+}
+.wrapper{
+    width: 1856px;
+    margin: 0 auto;
+    box-sizing: border-box;
+ 
+}
+.inner{
+    width: 1432px;
+    margin-right:  240px;
+    margin-left: 240px;
+}
+.header{
+  
+}
+.header-top{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-list{
+    display: flex;
+    
+}
+.header-list-item{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #0A0A0A;
+    margin: 0px 10px;
+}  
+.header-contacts{
+    margin-top: 20px;
+}
+.header-contacts-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-contacts-list-item{
+    margin-left: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #000000;
+    
+}
+.header-middle{
+    margin-top: 20px;
+    position: relative;
+}
+.header-middle-background{
+    
+
+}
+main{
+    margin: 80px 0px;
+}
+.texts{
+    position: absolute;
+    top: 1px;
+}
+.cards-title{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+}
+.cards-text{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 138%;
+}
+.cosultation-btn{
+    cursor: pointer;
+ color: #0A0A0A;
+ font-size: 16px;
+ line-height: 120%;
+ font-weight: bold;
+ background-color: #E5BB4F;
+ border-radius: 8px;
+ padding: 18px 32px;
+ border: none;
+}
+.section-title{
+    text-align: center;
+}
+.preview-list{
+    display: flex;
+    justify-content: space-between;
+}
+.preview-list-item{
+    margin: 0px 12px;
+    position: relative;
+     
+border-radius: 8px;
+}
+.preview-list-item-description{
+    position: absolute;
+    margin: 32px;
+    right: 0;
+    top: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+    
+}
+.preview-list-item-name{
+    margin: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    
+}
+.preview-list-item-absolutly{
+    position: absolute;
+    margin-right: 91px;
+    margin-top: 28px;
+    right: 0;
+    top: 0;
+}
+.preview-title{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.preview-text{
+    
+    color: black;
+    line-height: 120%;
+    font-size: 32px;
+    font-weight: bold;
+}
+.preview-btn{
+    cursor: pointer;
+    margin-top: 11px;
+    height: 54px;
+    width: 255px;
+   
+    background-color: #F6F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    border-radius: 3px;
+}
+.bread{
+    margin-top: 160px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cards-main{
+    
+}
+.cards-list{
+    border: 1px solid #E0E0E0;
+    padding: 0;
+    margin: 0px 13px;
+    border-radius: 8px;
+}
+.cards-list-item-top{
+    position: relative;
+   
+    
+}
+.cards-list-item-img{
+
+ border-radius: 8px;
+}
+.cards-list-item-text{
+    position: absolute;
+    top: 1px;
+}
+.cards-mid-list-item{
+    margin-left: 32px;
+    margin-top: 5px;
+}
+.cards-mid-list-item-first{
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.cards-list-item-title{
+    margin-left: 40px;
+    margin-top: 70px;
+color: #FFFFFF;
+font-size: 24px;
+line-height: 120%;
+font-weight: normal;
+}
+.cards-list-item-price{
+    margin-left: 40px;
+    margin-top: 24px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: normal;
+}
+.cads-list-item-price-square{
+    margin-left: 40px;
+    margin-top: 4px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: normal;
+}
+.cards-bottom-description{
+    height: 25px;
+    display:block;
+    margin-left: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: normal;
+}
+.cards-bottom-btn{
+    cursor: pointer;
+    width: 397px;
+    height: 60px;
+    background: #E5BB4F;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #0A0A0A;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+
+}
+footer{
+    background-image: url(img/footer-background.png);
+}
